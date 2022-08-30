@@ -67,23 +67,40 @@ footer {
 .rate__container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
+  justify-content: end;
+  margin-top: 44px;
 }
 
 .rate {
   display: flex;
   background: var(--light-gray-magenta);
   color: var(--very-dark-magenta);
-  width: 340px;
+  width: 420px;
+  height: 60px;
   align-items: center;
-  padding-left: 25px;
-  gap: 5px;
+  padding-left: 30px;
+  gap: 8px;
   border-radius: 5px;
   margin-bottom: 15px;
 }
 
+.rate:first-child {
+  margin-left: 10px;
+}
+
+.rate:nth-child(2) {
+  margin-left: 55px;
+}
+
+.rate:nth-child(3) {
+  margin-bottom: 5px;
+  margin-left: 110px;
+}
+
 
 .rate__text {
+  font-size: 1.07rem;
   font-weight: 700;
   margin-left: 20px;
 }
@@ -117,7 +134,7 @@ footer {
   padding-top: 12px;
   display: flex;
   align-items: center;
-  margin-bottom: 28px;
+  margin-bottom: 26px;
 }
 
 .buyer__info__container img {
@@ -146,7 +163,7 @@ footer {
 }
 
 .review__text {
-    line-height: 1.4rem;
+    line-height: 1.38rem;
     font-size: 1rem;
     font-weight: 500;
 }
